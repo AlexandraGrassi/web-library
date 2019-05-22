@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Things Fall Apart",
+    "author": "Chinua Achebe",
+    "cover": "images/things-fall-apart.jpg",
+    "year": 1958,
+    "inLibrary": {
+      "status": true
+    }
+  },
+  {
+    "id": 2,
+    "title": "Hans Christian Andersen",
+    "author": "Fairy tales",
+    "cover": "images/fairy-tales.jpg",
+    "year": 1836,
+    "inLibrary": {
+      "status": false,
+      "reader": "Таня",
+      "due": "22/05/2019"
+    }
+  },
+  {
+    "id": 3,
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "cover": "images/the-divine-comedy.jpg",
+    "year": 1315,
+    "inLibrary": {
+      "status": true
+    }
+  },
+  {
+    "id": 4,
+    "title": "Sentimental Education",
+    "author": "Gustave Flaubert",
+    "cover": "images/l-education-sentimentale.jpg",
+    "year": 1869,
+    "inLibrary": {
+      "status": true
+    }
+  },
+  {
+    "id": 5,
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "cover": "images/the-old-man-and-the-sea.jpg",
+    "year": 1869,
+    "inLibrary": {
+      "status": false,
+      "reader": "Максим",
+      "due": "01/06/2019"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Fyodor Dostoevsky",
+    "author": "Crime and Punishment",
+    "cover": "images/the-old-man-and-the-sea.jpg",
+    "year": 1866,
+    "inLibrary": {
+      "status": false,
+      "reader": "Эдик",
+      "due": "22/06/2019"
+    }
+  }
+]

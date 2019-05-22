@@ -1,0 +1,60 @@
+extends layout
+
+block content
+  header
+    nav(class = 'navbar navbar-expand-lg bg-light')
+      .container
+        a(href='' class="navbar-brand") Library
+        button(class='btn btn-outline-success ml-auto') Добавить книгу
+
+  main
+    section.container.mt-5
+      .row
+        .col-3
+          select(class='custom-select')
+            option(selected) Дата возврата
+            option(value='today') Сегодня
+            option(value='tomorrow') Завтра
+            option(value='week') На этой неделе
+            option(value='month') В этом месяце
+        .col.d-flex.align-items-center
+          div(class='custom-control custom-checkbox')
+            input(type='checkbox' class='custom-control-input' id='inLibrary')
+            label(class='custom-control-label' for='inLibrary') Книжка в наличии
+
+    section.container.mt-4
+      .row
+        -for (let i = 0; i < 5; i++)
+        .col-3
+          .card.book.mb-3
+            .card-header.px-2
+              .row
+                .col-6
+                  p.text-muted.m-0 В наличии
+
+            .card-body
+              p.card-text.mt-5 book.author
+              h3.card-title.mt-2 Book name
+              p.card-text.mt-5 Publish date
+            .card-footer.p-0
+              button(class='btn btn-success w-100 border-radius-0') Взять книгу
+
+        .col-3
+          .card.book.mb-3
+            .card-header.px-2
+              .row.no-gutters
+                .col-6.d-flex.align-items-center
+                  img(src='images/book.svg' class='book-icon')
+                  p.text-muted.m-0 У Эдика
+                .col-6.d-flex.align-items-center.justify-content-end
+                  img(src='images/clock.svg' class='book-icon book-icon__small')
+                  p.text-muted.m-0 22/11/18
+            .card-body
+              p.card-text.mt-5 Author
+              h3.card-title.mt-2 Book name
+              p.card-text.mt-5 Publish date
+            .card-footer.p-0
+              button(class='btn btn-primary w-100 border-radius-0') Вернуть книгу
+
+
+
