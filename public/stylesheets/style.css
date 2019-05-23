@@ -1,7 +1,8 @@
 html, body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  height: auto; }
 
 * {
   box-sizing: border-box;
@@ -21,6 +22,9 @@ input, button {
 button {
   cursor: pointer; }
 
+main {
+  overflow: hidden; }
+
 * {
   transition: all .3s ease; }
 
@@ -33,13 +37,15 @@ button {
   .navbar-brand:hover {
     color: #28a745; }
 
-.book-icon {
-  width: 25px;
-  height: 25px;
-  margin-right: 5px; }
-  .book-icon__small {
-    width: 20px;
-    height: 20px; }
+.book {
+  height: 100%; }
+  .book-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px; }
+    .book-icon__small {
+      width: 20px;
+      height: 20px; }
 
 .border-radius-0 {
   border-radius: 0 !important; }

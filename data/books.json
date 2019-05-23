@@ -11,8 +11,8 @@
   },
   {
     "id": 2,
-    "title": "Hans Christian Andersen",
-    "author": "Fairy tales",
+    "title": "Fairy tales",
+    "author": "Hans Christian Andersen",
     "cover": "images/fairy-tales.jpg",
     "year": 1836,
     "inLibrary": {
@@ -55,8 +55,8 @@
   },
   {
     "id": 6,
-    "title": "Fyodor Dostoevsky",
-    "author": "Crime and Punishment",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
     "cover": "images/the-old-man-and-the-sea.jpg",
     "year": 1866,
     "inLibrary": {
